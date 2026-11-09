@@ -1,0 +1,22 @@
+Check,Finding,Action
+Missing values,None found,No imputation needed
+Duplicates,"0 duplicate rows, 0 duplicate EmployeeNumbers",Nothing to remove
+Text consistency,Stripped spaces in text columns,Unique values checked below
+Constant columns,"['EmployeeCount', 'Over18', 'StandardHours'] have a single value",Dropped
+Range check,0 values outside valid ranges,Nothing to fix
+Negative values,0 negative values,Nothing to fix
+Logic check,0 rows violate: YearsInCurrentRole > YearsAtCompany,Nothing to fix
+Logic check,0 rows violate: YearsWithCurrManager > YearsAtCompany,Nothing to fix
+Logic check,0 rows violate: YearsSinceLastPromotion > YearsAtCompany,Nothing to fix
+Logic check,0 rows violate: YearsAtCompany > TotalWorkingYears,Nothing to fix
+Logic check,0 rows violate: TotalWorkingYears > Age - 14,Nothing to fix
+Outliers,MonthlyIncome: 114 IQR outliers,Kept (genuine values)
+Outliers,TotalWorkingYears: 63 IQR outliers,Kept (genuine values)
+Outliers,YearsAtCompany: 104 IQR outliers,Kept (genuine values)
+Outliers,YearsInCurrentRole: 21 IQR outliers,Kept (genuine values)
+Outliers,YearsSinceLastPromotion: 107 IQR outliers,Kept (genuine values)
+Outliers,YearsWithCurrManager: 14 IQR outliers,Kept (genuine values)
+Outliers,NumCompaniesWorked: 52 IQR outliers,Kept (genuine values)
+Outliers,TrainingTimesLastYear: 238 IQR outliers,Kept (genuine values)
+Target balance,No 83.9% / Yes 16.1%,"Imbalanced: compare attrition RATES, not raw counts"
+Feature engineering,"Added AttritionFlag, bands and *_Label columns",Created

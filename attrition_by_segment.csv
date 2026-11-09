@@ -1,0 +1,47 @@
+Segment,Group,Employees,Left,AttritionRate
+Department,Sales,446,92,20.6
+Department,Human Resources,63,12,19.0
+Department,Research & Development,961,133,13.8
+JobRole,Sales Representative,83,33,39.8
+JobRole,Laboratory Technician,259,62,23.9
+JobRole,Human Resources,52,12,23.1
+JobRole,Sales Executive,326,57,17.5
+JobRole,Research Scientist,292,47,16.1
+JobRole,Healthcare Representative,131,9,6.9
+JobRole,Manufacturing Director,145,10,6.9
+JobRole,Manager,102,5,4.9
+JobRole,Research Director,80,2,2.5
+Gender,Male,882,150,17.0
+Gender,Female,588,87,14.8
+MaritalStatus,Single,470,120,25.5
+MaritalStatus,Married,673,84,12.5
+MaritalStatus,Divorced,327,33,10.1
+EducationField,Human Resources,27,7,25.9
+EducationField,Technical Degree,132,32,24.2
+EducationField,Marketing,159,35,22.0
+EducationField,Life Sciences,606,89,14.7
+EducationField,Medical,464,63,13.6
+EducationField,Other,82,11,13.4
+BusinessTravel,Travel_Frequently,277,69,24.9
+BusinessTravel,Travel_Rarely,1043,156,15.0
+BusinessTravel,Non-Travel,150,12,8.0
+JobLevel,1,543,143,26.3
+JobLevel,2,534,52,9.7
+JobLevel,3,218,32,14.7
+JobLevel,4,106,5,4.7
+JobLevel,5,69,5,7.2
+AgeGroup,18-25,123,44,35.8
+AgeGroup,26-35,606,116,19.1
+AgeGroup,36-45,468,43,9.2
+AgeGroup,46-55,226,26,11.5
+AgeGroup,56+,47,8,17.0
+TenureBand,0-1,215,75,34.9
+TenureBand,2-3,255,47,18.4
+TenureBand,4-5,306,40,13.1
+TenureBand,6-10,448,55,12.3
+TenureBand,10+,246,20,8.1
+Education_Label,Below College,170,31,18.2
+Education_Label,Bachelor,572,99,17.3
+Education_Label,College,282,44,15.6
+Education_Label,Master,398,58,14.6
+Education_Label,Doctor,48,5,10.4

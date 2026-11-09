@@ -1,0 +1,36 @@
+Column,Data Type,Unique Values,Example Value,Description
+Age,int64,43,41,Employee age in years
+Attrition,str,2,Yes,Whether the employee left the company (Yes/No) - TARGET
+BusinessTravel,str,3,Travel_Rarely,Frequency of business travel
+DailyRate,int64,886,1102,Daily billing rate
+Department,str,3,Sales,"Department (Sales, Research & Development, Human Resources)"
+DistanceFromHome,int64,29,1,Distance from home to workplace
+Education,int64,5,2,"Education level (1 Below College, 2 College, 3 Bachelor, 4 Master, 5 Doctor)"
+EducationField,str,6,Life Sciences,Field of study
+EmployeeCount,int64,1,1,Always 1 (constant)
+EmployeeNumber,int64,1470,1,Unique employee ID
+EnvironmentSatisfaction,int64,4,2,Satisfaction with work environment (1 Low - 4 Very High)
+Gender,str,2,Female,Male / Female
+HourlyRate,int64,71,94,Hourly billing rate
+JobInvolvement,int64,4,3,Job involvement (1 Low - 4 Very High)
+JobLevel,int64,5,2,Job level (1 entry - 5 senior)
+JobRole,str,9,Sales Executive,Job role / title
+JobSatisfaction,int64,4,4,Job satisfaction (1 Low - 4 Very High)
+MaritalStatus,str,3,Single,Single / Married / Divorced
+MonthlyIncome,int64,1349,5993,Monthly salary
+MonthlyRate,int64,1427,19479,Monthly billing rate
+NumCompaniesWorked,int64,10,8,Number of companies worked for before
+Over18,str,1,Y,Always 'Y' (constant)
+OverTime,str,2,Yes,Works overtime (Yes/No)
+PercentSalaryHike,int64,15,11,Percentage salary increase at last hike
+PerformanceRating,int64,2,3,"Performance rating (1 Low, 2 Good, 3 Excellent, 4 Outstanding)"
+RelationshipSatisfaction,int64,4,1,Satisfaction with relationships at work (1 Low - 4 Very High)
+StandardHours,int64,1,80,Always 80 (constant)
+StockOptionLevel,int64,4,0,Stock option level (0 - 3)
+TotalWorkingYears,int64,40,8,Total years of work experience
+TrainingTimesLastYear,int64,7,0,Number of trainings attended last year
+WorkLifeBalance,int64,4,1,"Work-life balance (1 Bad, 2 Good, 3 Better, 4 Best)"
+YearsAtCompany,int64,37,6,Years at the company
+YearsInCurrentRole,int64,19,4,Years in the current role
+YearsSinceLastPromotion,int64,16,0,Years since the last promotion
+YearsWithCurrManager,int64,18,5,Years with the current manager
